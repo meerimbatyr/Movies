@@ -1,0 +1,50 @@
+.actors {
+  width: 90%;
+  display: grid;
+  grid-template: auto/repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.actor {
+  box-shadow: 4px 4px 15px -2px #000000;
+  margin: 0 5px 10px 0;
+}
+img {
+  width: 100%;
+}
+
+h3 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.knownfor {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0.5rem 1rem;
+}
+
+.image-popup {
+  width: 35%;
+  display: block;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.containerMovies {
+  padding: 0.5rem;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.posters {
+  width: 25%;
+  display: inline-block;
+}
+.posters img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
